@@ -84,3 +84,7 @@ const stringOpt = {
         //Replace words/character
         const replaceStringP1 = stringP1.replace('Hello','Hi');
         console.log(replaceStringP1);
+
+        //String union with separated 
+          const eS = ['Hot', 'Hot', 'Hot'];
+          console.log(eS.join(', '));
