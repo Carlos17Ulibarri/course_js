@@ -68,4 +68,39 @@ console.log("Discount: ",disc);
 
     console.log(person.age(1956,2022));
 
-// 
+//Pure and impure functions
+    /*
+        Pure(s)
+         Characteristics:
+            > Same entry, same exit.
+            > Doesn´t produce side effects.
+         
+         Side effects:
+            > Update Global Variables
+            > Update parameters
+            > HTTP Requets
+            > Printing messages in screen or console
+            > DOM handling
+            > Time handling
+    */
+    //Structure
+    function opt (p1,p2){
+        return p1 - p2;
+    };
+        //Other examples 
+            function square (x){
+                return x * x;
+            };
+
+    //Function impure 
+    function opt1(p3,p4){
+        console.log(p3);
+        return p3 - p4
+    };
+
+        //Other examples
+            //Update Global Varible 
+            let v1 = 0;
+            function updateGV(){
+                v1 = 1 + 1;
+            };
