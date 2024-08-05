@@ -27,3 +27,16 @@ const mixArray = [true,'Data',3,
 ];
 
 console.log(mixArray[3].otherData); //Array access 
+
+
+// Destructuring
+const technologies = ["Node.js","Nest.js","React.js"];
+
+const [t1,t2,t3] = technologies;
+
+console.log(t1,t2,t3);
+
+
+const [,,t4] = technologies;
+console.log(t4);
+

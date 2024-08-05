@@ -22,7 +22,7 @@ const stringOpt = {
 
     //Escape characters
     /*
-    -- Erro situación:
+    -- Error situation:
                         const ejm = 'I'm Sorry'
     */
         
@@ -55,7 +55,7 @@ const stringOpt = {
     console.log(typeof(stringC));
 
     //Character access
-        //Firts Option
+        //First Option
         console.log(stringP[5]);
         //Second Option 
         console.log(stringP.charAt(5));
@@ -67,10 +67,17 @@ const stringOpt = {
         /* **If you search for a word or character, that does not exist, the result will be -1 */
 
     //Other Methods
-        console.log(stringP1.slice(6,9)); //Search word/character in a range
-        console.log(stringP1.length); //String size
-        console.log(stringP1.toLocaleUpperCase()); //String to UPPERCASE
-        console.log(stringP1.toLocaleLowerCase()); //Strign to lowercase
+        //Search word/character in a range
+        console.log(stringP1.slice(6,9)); 
+
+         //String size
+        console.log(stringP1.length);
+
+        //String to UPPERCASE
+        console.log(stringP1.toLocaleUpperCase()); 
+
+        //String to lowercase
+        console.log(stringP1.toLocaleLowerCase()); 
 
         //String division
         const partsStringP1 = stringP1.split(' ');
@@ -86,5 +93,5 @@ const stringOpt = {
         console.log(replaceStringP1);
 
         //String union with separated 
-          const eS = ['Hot', 'Hot', 'Hot'];
-          console.log(eS.join(', '));
+        const eS = ['Hot', 'Hot', 'Hot'];
+        console.log(eS.join(', '));
