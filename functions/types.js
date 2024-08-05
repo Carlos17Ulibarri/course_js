@@ -12,10 +12,12 @@
 //Arrow functions
 /*
     Structure 
-        const name = (arg1,arg2,...){
-            //body
+        const name = (arg1,arg2,...) =>{
+            ///body
         };
+*/
 
+/*
     Arrow function
 Una expresión de función flecha es una alternativa compacta a una expresión de función tradicional, 
 pero es limitada y no se puede utilizar en todas las situaciones.
