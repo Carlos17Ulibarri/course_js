@@ -41,7 +41,7 @@ const newData = data.concat(["One","Two","Three"]);
         filter: Creates a new Array with elements that comply a given condition by a function
     */
 
-    const findColors = colors.filter(color => color.match('i'));
+    const findColors = colors.filter(color => color.match('White'));
     console.log("findColors: ",findColors);
 
     /*
